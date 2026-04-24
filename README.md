@@ -2,7 +2,7 @@
 
 An abundance-based visualization of Species Contribution to Beta Diversity (SCBD) from camera-trap observations at Gopher Tortoise burrows in southeast Florida. This is a companion exploration to the published analysis in [Huffman et al. 2025](https://github.com/Jessene/gopher-tortoise-camera-analysis), produced from the same underlying dataset but using a different methodological lens.
 
-![Rose plot of species contribution to beta diversity with manually added silhouettes](rosegraph silhouette .png)
+![Rose plot of species contribution to beta diversity with manually added silhouettes](rosegraph_silhouette.png)
 
 *Ten species with the largest contributions to beta diversity (SCBD) across four southeast Florida study locations. Rose plot produced in R with ggplot2 polar coordinates; species silhouettes added manually from public-domain sources.*
 
@@ -23,7 +23,7 @@ The rose plot is still informative as an **exploratory visualization** — it te
 | File | Description |
 |---|---|
 | `rose_plot_scbd.R` | Main analysis script — data preparation, per-site summation, Hellinger beta diversity, rose plot |
-| `rose_plot_scbd.png` | Final figure with silhouettes |
+| `rosegraph_silhouette.png` | Final figure with silhouettes |
 
 ## Data
 
